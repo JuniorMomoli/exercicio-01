@@ -1,0 +1,91 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+    background: url(../images/bg-desktop.svg) no-repeat;
+    background: cover;
+    background-color: hsl(257, 40%, 49%);
+    margin: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+}
+
+.container .painel .descricao{
+    display: flex;
+    margin: 50px;
+    padding: 50px;
+}
+.descricao{
+    max-width: 1024px;
+    
+}
+
+.descricao h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    padding: 2rem;
+    max-width: 40%;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.descricao p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+    max-width: 45%;
+    margin-bottom: 70px;
+    margin-left: 15px;
+}
+
+.descricao .btn {
+    width: 70px;
+    height: 20px;
+    margin: 10px ;
+    padding: 7px 40px;
+    
+    border-radius: 50px;
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+}
+
+.descricao a{
+    font-size: 1.4rem;
+    transition: 0.3s ease-in-out;
+}
+
+.descricao a:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+    cursor: pointer;
+}
+.social{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    
+}
+.social a{
+    font-weight: 200;
+    text-align: center;
+    align-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    color: #fff;
+    border: solid;
+    border-radius: 50px;
+    transition: 0.2s ;
+    
+}
+
+.social a:hover{
+    color:hsl(300, 69%, 71%)
+}
